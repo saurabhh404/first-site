@@ -1,3 +1,7 @@
+html {
+  padding: 0;
+}
+
 body {
   margin: 0;
   color: white;
@@ -19,9 +23,10 @@ body {
   border-radius: 10px;
 }
 
-.section-heading{
-  margin: 50px 0 10px 100px;  
+.section-heading {
+  margin: 50px 0 10px 50px;
 }
+
 .name {
   margin: 50px;
   font-size: 7rem;
@@ -47,8 +52,12 @@ body {
 }
 
 .top-container {
-  padding: 10% 0;
+  padding: 10% 0 10% 0;
   background-color: #1b1b2f;
+}
+
+.row {
+  margin: 0;
 }
 
 .code-screen {
@@ -70,10 +79,11 @@ body {
 .intro {
   background-color: #162447;
   margin: 0;
-  /* padding-bottom: 7%;  */
+  padding: 5% 0 5% 0;
 }
 
 .intro-desc {
+  font-size: 1.2rem;
   text-align: left;
   padding: 0 150px 0 0;
   line-height: 1.5;
@@ -131,6 +141,7 @@ body {
 @media (max-width: 1200px) {
   .code-screen, .dish {
     position: relative;
+    width: 30%;
   }
 
   .code-screen {
@@ -138,8 +149,8 @@ body {
   }
 
   .dish {
-    top: 80px;
-    left: 50%;
+    top: 100px;
+    left: 30%;
   }
 
   .align-left, .align-right {
