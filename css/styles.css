@@ -25,6 +25,9 @@ body {
 
 .section-heading {
   margin: 50px 0 10px 50px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .name {
@@ -121,12 +124,14 @@ body {
 }
 
 .carousel-row {
-  padding: 10% 0;
+  padding: 5% 0 10% 0;
 }
 
 .skill-desc {
   text-align: left;
   height: 250px;
+  line-height: 1.5;
+  padding-bottom: 2%;
 }
 
 .skill-image {
@@ -162,8 +167,25 @@ body {
   }
 }
 
+footer {
+  text-align: center;
+  margin: 0;
+  background-color: #1a2849;
+padding: 20px 0 5px 0;
+  color: white;
+}
+
+.fa-lg:hover{
+  color: #1b1b2f;
+}
+.footer-link {
+  margin: 30px;
+  color: white;
+}
+
 .copyright {
   color: #eaf6f6;
-  font-size: 0.75rem;
+
   padding: 20px 0;
+
 }
