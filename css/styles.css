@@ -20,11 +20,11 @@ body {
 }
 
 .radius {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .section-heading {
-  margin: 50px 0 10px 50px;
+  margin: 10px 0 10px 50px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 500;
   letter-spacing: 3px;
@@ -87,13 +87,14 @@ body {
 
 .intro-desc {
   font-size: 1.2rem;
-  text-align: left;
   padding: 0 150px 0 0;
   line-height: 1.5;
 }
 
 .my-pic {
   margin: 10%;
+  border-radius: 100%;
+  width: 200px;
 }
 
 .left-float {
@@ -110,6 +111,11 @@ body {
 
 .align-right {
   text-align: right;
+}
+
+.skill-carousel {
+  margin: 0;
+  padding: 5% 0 5% 0;
 }
 
 .carousel {
@@ -143,6 +149,38 @@ body {
   font-size: 1.2rem;
 }
 
+.contact {
+  margin: 0;
+  padding: 5% 0 5% 0;
+  background-color: #162447;
+}
+
+.contact-desc {
+  font-size: 1.2rem;
+  padding: 0 30px 0 150px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin: 0;
+  background-color: #1b1b2f;
+  padding: 20px 0 5px 0;
+}
+
+.fa-lg:hover {
+  color: white;
+}
+
+.footer-link {
+  margin: 30px;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #8f8f8f;
+}
+
 @media (max-width: 1200px) {
   .code-screen, .dish {
     position: relative;
@@ -162,30 +200,7 @@ body {
     text-align: center;
   }
 
-  .intro-desc {
+  .intro-desc, .contact-desc {
     padding: 0 150px;
   }
-}
-
-footer {
-  text-align: center;
-  margin: 0;
-  background-color: #1a2849;
-padding: 20px 0 5px 0;
-  color: white;
-}
-
-.fa-lg:hover{
-  color: #1b1b2f;
-}
-.footer-link {
-  margin: 30px;
-  color: white;
-}
-
-.copyright {
-  color: #eaf6f6;
-
-  padding: 20px 0;
-
 }
